@@ -13,8 +13,8 @@ import Imc from "./components/Imc";
 
 export default function App() {
   const [nome, setNome] = useState("");
-  const [peso, setPeso] = useState("");
-  const [altura, setAltura] = useState("");
+  const [peso, setPeso] = useState(0);
+  const [altura, setAltura] = useState(0);
 
   const capturaNome = (valor) => {
     setNome(valor);
